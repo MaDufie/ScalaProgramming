@@ -26,5 +26,5 @@ range2.foreach(println_)
 
 //val evenNumbers = range1.filter(x => x % 2 == 0)
 // same as
-val evenNums = range1.filter(_ % 2 == 0)
+val evenNumbers = range1.filter(_ % 2 == 0)
 evenNums.foreach(println_)
